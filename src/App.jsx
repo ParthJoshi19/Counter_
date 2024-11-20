@@ -7,6 +7,7 @@ function App() {
   const [minCount,setminCount]=useState(0);
   
   const handleAdd = () => {
+    
     if (count === 150) {
       confirm("OOPS! You are at boundary, Please Click on '-' for Change");
     } else {
